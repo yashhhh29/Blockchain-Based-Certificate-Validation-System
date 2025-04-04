@@ -1,27 +1,49 @@
-"INTEGRATED PLATFORM FOR VALIDATING THE CERTIFICATES"
-               This project focuses on creating a secure and reliable platform for academic certificate validation using Blockchain technology. By leveraging the immutable and tamper-proof nature of blockchain, the system ensures the authenticity and integrity of certificates, reducing the risks of forgery and unauthorized modifications.
-HARDWARE REQUIREMENTS:
-Processor: Intel i3
-RAM: 4 GB
-Storage: 256GB
-SOFTWARE REQUIREMENTS:
-Operating system : Windows 
-Technology used: Python
-Python Libraries : tkinter, Blockchain, Hashlib 
-INSTALLATION REQUIREMENTS:
-Step 1: Install PyCharm Community Edition
-Download and install PyCharm Community Edition.
-Open PyCharm after installation.
-Step 2: In PyCharm:
-Go to File > Open and select the project folder.
-RUNNING THE PROJECT:
-Step 1: Run the Main File
-Open the main.py file in PyCharm.
-Click on the Run button (green play button) or use the shortcut Shift + F10.
-The Tkinter GUI will open.
-Step 2: Application Workflow
-For Issuing Certificates:
-Input certificate details.Generate and store the certificate on the blockchain.
-For Validating Certificates:
-Select a certificate.Validate its authenticity using blockchain.
 
+
+# 🎓 Certificate Verification using Blockchain
+
+This project is a Python-based GUI application that uses blockchain technology to **secure, store, and verify certificates** like mark sheets.
+
+---
+
+## ✅ Features
+
+- Upload and digitally sign certificates
+- Store certificate data on a blockchain
+- Verify certificates using SHA-256 signature
+- Simple and user-friendly interface
+
+---
+
+## 🛠 Requirements
+
+- Python 3.8+
+- Tkinter (for GUI)
+
+---
+
+## 📦 How to Run
+
+1. Open the project folder  
+2. Run the main file:
+   ```bash
+   python Main.py
+   ```
+3. Use the GUI to upload, save, or verify certificates.
+
+---
+
+## 📂 Project Files
+
+- `Main.py` – Main GUI application  
+- `Block.py` – Block structure  
+- `Blockchain.py` – Blockchain logic  
+- `blockchain_contract.txt` – Stores the blockchain  
+- `certificate_templates/` – Upload from here  
+- `saved_certificates/` – Certificates are saved here
+
+---
+
+## 👨‍💻 Developed by
+
+**Yash Maurya**  
